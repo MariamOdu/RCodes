@@ -1,0 +1,196 @@
+RCODE FOR MEAN VALUES
+names(data1)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model1 <-lm(YIELD~ANISO+RESIS+THICK, data=data1)
+> model1
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.229e+00 3.232e-02 1.346e-04 -2.928e-05
+> summary(model1)
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Residuals:
+Min 1Q Median 3Q Max
+-0.226797 -0.007906 -0.001034 0.007026 0.206298
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.229e+00 2.656e-03 462.903 <2e-16 ***
+ANISO 3.232e-02 1.710e-03 18.903 <2e-16 ***
+RESIS 1.346e-04 7.871e-06 17.102 <2e-16 ***
+THICK -2.928e-05 4.521e-05 -0.648 0.517
+99
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02306 on 8096 degrees of freedom
+Multiple R-squared: 0.05751, Adjusted R-squared: 0.05716
+F-statistic: 164.7 on 3 and 8096 DF, p-value: < 2.2e-16
+
+99.73%-RCODE
+names(data1)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model1 <-lm(YIELD~ANISO+RESIS+THICK, data=data1)
+> model1
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.4659919 0.0484777 0.0001542 0.0003285
+> summary(model1)
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Residuals:
+Min 1Q Median 3Q Max
+-0.39554 -0.00834 -0.00049 0.00874 0.13460
+Coefficients:
+100
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.466e+00 3.363e-03 435.907 < 2e-16 ***
+ANISO 4.848e-02 1.208e-03 40.140 < 2e-16 ***
+RESIS 1.542e-04 7.610e-06 20.255 < 2e-16 ***
+THICK 3.285e-04 5.025e-05 6.537 6.64e-11 ***
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02683 on 8096 degrees of freedom
+Multiple R-squared: 0.3432, Adjusted R-squared: 0.343
+F-statistic: 1410 on 3 and 8096 DF, p-value: < 2.2e-16
+
+95.45%-RCODE
+names(data1)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model1 <-lm(YIELD~ANISO+RESIS+THICK, data=data1)
+> model1
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.3913410 0.0437027 0.0001594 0.0002502
+> summary(model1)
+101
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Residuals:
+Min 1Q Median 3Q Max
+-0.34403 -0.00741 -0.00016 0.00760 0.14570
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.391e+00 3.289e-03 423.042 < 2e-16 ***
+ANISO 4.370e-02 1.294e-03 33.778 < 2e-16 ***
+RESIS 1.594e-04 7.106e-06 22.432 < 2e-16 ***
+THICK 2.502e-04 4.711e-05 5.312 1.11e-07 ***
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02472 on 8096 degrees of freedom
+Multiple R-squared: 0.2258, Adjusted R-squared: 0.2255
+F-statistic: 787.1 on 3 and 8096 DF, p-value: < 2.2e-16
+
+68.37%-RCODE
+names(data1)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model1 <-lm(YIELD~ANISO+RESIS+THICK, data=data1)
+> model1
+102
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.319e+00 3.625e-02 1.509e-04 9.555e-05
+> summary(model1)
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data1)
+Residuals:
+Min 1Q Median 3Q Max
+-0.290841 -0.007082 -0.000249 0.007026 0.168997
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.319e+00 3.273e-03 402.903 <2e-16 ***
+ANISO 3.625e-02 1.520e-03 23.849 <2e-16 ***
+RESIS 1.509e-04 7.101e-06 21.257 <2e-16 ***
+THICK 9.555e-05 4.584e-05 2.084 0.0372 *
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02339 on 8096 degrees of freedom
+Multiple R-squared: 0.1064, Adjusted R-squared: 0.106
+F-statistic: 321.2 on 3 and 8096 DF, p-value: < 2.2e-16
+103
+
+31.63%-RCODE
+names(data2)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model2 <-lm(YIELD~ANISO+RESIS+THICK, data=data2)
+> model2
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data2)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.119e+00 4.399e-02 1.631e-04 4.566e-07
+> summary(model2)
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data2)
+Residuals:
+Min 1Q Median 3Q Max
+-0.166245 -0.009008 -0.001369 0.007124 0.263069
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.119e+00 1.210e-03 924.69 <2e-16 ***
+ANISO 4.399e-02 1.452e-03 30.29 <2e-16 ***
+RESIS 1.631e-04 8.315e-06 19.61 <2e-16 ***
+THICK 4.566e-07 4.358e-05 0.01 0.992
+104
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.0239 on 8096 degrees of freedom
+Multiple R-squared: 0.1161, Adjusted R-squared: 0.1158
+F-statistic: 354.4 on 3 and 8096 DF, p-value: < 2.2e-16
+
+4.55%-RCODE
+names(data3)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model3 <-lm(YIELD~ANISO+RESIS+THICK, data=data3)
+> model3
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data3)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+1.0249312 0.0530104 0.0001950 -0.0000729
+> summary(model3)
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data3)
+Residuals:
+Min 1Q Median 3Q Max
+-0.131997 -0.009854 -0.000544 0.007262 0.315148
+105
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.025e+00 4.960e-04 2066.208 <2e-16 ***
+ANISO 5.301e-02 1.205e-03 43.984 <2e-16 ***
+RESIS 1.950e-04 8.524e-06 22.873 <2e-16 ***
+THICK -7.290e-05 4.435e-05 -1.644 0.1
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02554 on 8096 degrees of freedom
+Multiple R-squared: 0.2396, Adjusted R-squared: 0.2393
+F-statistic: 850.4 on 3 and 8096 DF, p-value: < 2.2e-16
+
+0.3%-RCODE
+names(data4)
+[1] "ANISO" "RESIS" "THICK" "YIELD"
+> model4 <-lm(YIELD~ANISO+RESIS+THICK, data=data4)
+> model4
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data4)
+Coefficients:
+(Intercept) ANISO RESIS THICK
+0.9398210 0.0582666 0.0002138 -0.0002317
+> summary(model4)
+106
+Call:
+lm(formula = YIELD ~ ANISO + RESIS + THICK, data = data4)
+Residuals:
+Min 1Q Median 3Q Max
+-0.13654 -0.01055 0.00009 0.00821 0.36468
+Coefficients:
+Estimate Std. Error t value Pr(>|t|)
+(Intercept) 9.398e-01 7.717e-04 1217.835 < 2e-16 ***
+ANISO 5.827e-02 1.120e-03 52.027 < 2e-16 ***
+RESIS 2.138e-04 8.990e-06 23.778 < 2e-16 ***
+THICK -2.317e-04 4.708e-05 -4.922 8.76e-07 ***
+Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Residual standard error: 0.02782 on 8096 degrees of freedom
+Multiple R-squared: 0.3546, Adjusted R-squared: 0.3543
+F-statistic: 1483 on 3 and 8096 DF, p-value: < 2.2e-16
